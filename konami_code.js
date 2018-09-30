@@ -25,13 +25,13 @@ function onKeyDownHandler(e) {
   if (key === codes[index]) {
     index++;
     
-    if (index === codes.length-1) {
+    if (index === codes.length) {
       window.alert("Hurray!");
       index = 0;
       
-    } 
-  } else {
+    } else {
     index = 0;
+  }
     
   }
   
