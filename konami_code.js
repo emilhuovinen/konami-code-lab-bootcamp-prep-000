@@ -34,9 +34,6 @@ function onKeyDownHandler(e) {
   }
   
 }
-
- 
-
 }
 
 init();
