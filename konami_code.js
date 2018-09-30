@@ -20,18 +20,18 @@ document.body.addEventListener('keydown', onKeyDownHandler);
 
 function onKeyDownHandler(e) {
   const key = e.key;
-  
   console.log(key);
+  
   if (key === codes[index]) {
     index++;
     
-    if (index === codes.length) {
+    if (index === codes.length-1) {
       window.alert("Hurray!");
       index = 0;
       
-    } else {
+    } 
+  } else {
     index = 0;
-  }
     
   }
   
