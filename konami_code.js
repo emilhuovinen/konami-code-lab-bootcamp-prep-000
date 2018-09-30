@@ -14,24 +14,17 @@ const codes = [
 
 
 function init() {
-let index = 0;
-document.body.addEventListener('keydown', onKeyDownHandler);
-
-
-function onKeyDownHandler(e) {
-  const key = e.key;
-  console.log(key);
-  if (key === codes[index]) {
-    index++;
-
- if (index === codes.length) {
-    alert("Hurray!");
-    index = 0;
-  } else {
-    index = 0;
-  }
+document.body.addEventListener("keydown", (e) => {
+    const key = e.key
     
-  }
+    idx = (codes[idx] === key) ? ++idx : 0
+    
+    if (idx === codes.length) {
+      window.alert("Hurray!");
+      idx = 0
+    }
+    
+  });
   
 }
 
