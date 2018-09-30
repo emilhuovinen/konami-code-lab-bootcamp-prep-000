@@ -37,3 +37,5 @@ function onKeyDownHandler(e) {
 }
 
 }
+
+init();
