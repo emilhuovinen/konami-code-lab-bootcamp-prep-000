@@ -23,6 +23,7 @@ function onKeyDownHandler(e) {
   console.log(key);
   if (key === codes[index]) {
     index++;
+    console.log(index);
     
   }
   
