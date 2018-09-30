@@ -14,13 +14,13 @@ const codes = [
 
 
 function init() {
-
+let index = 0;
 document.body.addEventListener('keydown', onKeyDownHandler);
 
 
 function onKeyDownHandler(e) {
   const key = e.key;
-  let index = 0;
+  
   console.log(key);
   if (key === codes[index]) {
     index++;
