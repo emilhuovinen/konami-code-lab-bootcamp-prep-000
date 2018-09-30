@@ -15,9 +15,8 @@ const codes = [
 
 function init() {
 let index = 0;
-document.body.addEventListener('keydown', onKeyDownHandler);
- 
-// This is the function that would be invoked by the event listener.
+document.body.KeyboardEvent('keydown', onKeyDownHandler);
+
 function onKeyDownHandler(e) {
   const key = e.key;
  
