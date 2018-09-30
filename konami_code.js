@@ -19,7 +19,7 @@ document.body.addEventListener('keydown', onKeyDownHandler);
 
 
 function onKeyDownHandler(e) {
-  const key = e.;
+  const key = e.keycode;
   console.log(key);
   if (key === codes[index]) {
     index++;
