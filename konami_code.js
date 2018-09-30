@@ -34,6 +34,6 @@ document.body.addEventListener('keydown', (event) => {
   
 }
 
-}}
+)}
 
 init();
