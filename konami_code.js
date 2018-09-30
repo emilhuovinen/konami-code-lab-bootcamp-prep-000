@@ -16,11 +16,11 @@ const codes = [
 function init() {
 let index = 0;
 document.body.addEventListener('keydown', onKeyDownHandler);
-console.log(key);
+
 
 function onKeyDownHandler(e) {
   const key = e.key;
-  
+  console.log('key', key);
   if (key === codes[index]) {
     index++;
   
