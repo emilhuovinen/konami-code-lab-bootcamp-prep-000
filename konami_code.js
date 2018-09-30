@@ -25,10 +25,11 @@ function onKeyDownHandler(e) {
     index++;
   
   
-  if (index === codes.length) {
-    alert("Hurray!");
+  if (index !== codes.length) {
+    
     index = 0;
   } else {
+    alert("Hurray!");
     index = 0;
   }
     
