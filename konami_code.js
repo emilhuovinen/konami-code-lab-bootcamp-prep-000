@@ -29,7 +29,7 @@ function onKeyDownHandler(e) {
   }
   if (index === codes.length) {
     window.alert("Hurray!");
-    index = 0;
+   
   }
     
   }
