@@ -24,10 +24,11 @@ function onKeyDownHandler(e) {
   if (key === codes[index]) {
     index++;
 
- if (index === codes.length) {
-    window.alert("Hurray!");
+ } else {
     index = 0;
-  } else {
+  }
+  if (index === codes.length) {
+    window.alert("Hurray!");
     index = 0;
   }
     
